@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="heading1">UNIT CONVERTER</h1>
+      <form action="something.py" class="form">
+        <select name="" id="dropdown1" onchange="selectedOption()" >
+          <option value="" selected disabled>Choose Measure</option>
+          <option value="">Length</option>
+          <option value="">Volume</option>
+          <option value="">Weight</option>
+          <option value="">Temprature</option>
+        </select>
+        <div class="inputs">
+          <input type="number" id="input1" oninput="inputCalculation()"/>
+          <input type="number" id="input2" disabled/>
+        </div>
+        <div class="unitsOption">
+        <select id="dropdown2" title="choose" required onchange="inputCalculation()">
+          <option value="" selected disabled>Choose Unit</option>
+          <option class="dropdown2Options">Kilometre</option>
+          <option class="dropdown2Options">Metre</option>
+          <option class="dropdown2Options">Centimetre</option>
+          <option class="dropdown2Options">Foot</option>
+          <option class="dropdown2Options">Inch</option>
+          <option class="dropdown2Options">Degree Celsius</option>
+          <option class="dropdown2Options">Fahrenheit</option>
+          <option class="dropdown2Options">Kelvin</option>
+          <option class="dropdown2Options">Litre</option>
+          <option class="dropdown2Options">Milliletre</option>
+          <option class="dropdown2Options">Cubic Metre</option>
+          <option class="dropdown2Options">Cubic Foot</option>
+          <option class="dropdown2Options">Cubic Inch</option>
+          <option class="dropdown2Options">Kilogram</option>
+          <option class="dropdown2Options">Gram</option>
+          <option class="dropdown2Options">Milligram</option>
+          <option class="dropdown2Options">Tonne</option>
+          <option class="dropdown2Options">Pound</option>
+        </select>
+        <select id="dropdown3" required onchange="inputCalculation()">
+          <option selected disabled>Choose Unit</option>
+          <option class="dropdown3Options">Kilometre</option>
+          <option class="dropdown3Options">Metre</option>
+          <option class="dropdown3Options">Centimetre</option>
+          <option class="dropdown3Options">Foot</option>
+          <option class="dropdown3Options">Inch</option>
+          <option class="dropdown3Options">Degree Celsius</option>
+          <option class="dropdown3Options">Fahrenheit</option>
+          <option class="dropdown3Options">Kelvin</option>
+          <option class="dropdown3Options">Litre</option>
+          <option class="dropdown3Options">Milliletre</option>
+          <option class="dropdown3Options">Cubic Metre</option>
+          <option class="dropdown3Options">Cubic Foot</option>
+          <option class="dropdown3Options">Cubic Inch</option>
+          <option class="dropdown3Options">Kilogram</option>
+          <option class="dropdown3Options">Gram</option>
+          <option class="dropdown3Options">Milligram</option>
+          <option class="dropdown3Options">Tonne</option>
+          <option class="dropdown3Options">Pound</option>
+        </select>
+      </div>
+      </form>
+      <p id="rule"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

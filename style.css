@@ -1,0 +1,57 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 218, 204);
+    height: 100vh;
+}
+#container{
+    text-align: center;
+    border:2px solid rgb(122, 108, 108);
+    max-width: 400px;
+    height: 200px;
+    padding:20px;
+    border-radius:8px;
+    box-shadow: 0px 5px 30px rgba(0,0,0,0.9);
+}
+#dropdown1{
+    width:60%;
+    margin: 5px 3px;
+    padding:5px;
+    font-size:120%;
+}
+#heading1{
+    margin:0px;
+}
+form{
+    margin-top:25px;
+}
+#input1,#input2{
+    padding:5px;
+    width:25%;
+    font-weight: bolder;
+}
+#dropdown2,#dropdown3{
+    padding: 3px;
+    font-size:80%;
+    width:88px;
+}
+select,input{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none; /* Remove default dropdown arrow */
+  background-color: white;
+  transition: all 0.3s ease; /* Transition for smoothness */
+  cursor: pointer;
+}
+select:focus,input:focus {
+    outline: none;
+    border-color: #0f6ed3;
+    box-shadow: 0 2 8px rgba(0, 123, 255, 0.5);
+  }
+#rule{
+    color:rgb(81, 81, 173);
+    font-weight: bolder;
+}
